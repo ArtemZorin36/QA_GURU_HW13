@@ -32,14 +32,6 @@
 
 ## <img width="4%" title="Jenkins" src="images/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_homework_13/)
 
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp;*Сформировать allure отчет:*
-
-```bash
-allure serve build/allure-results
-```
-
 *Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.*
 
 <p align="center">
