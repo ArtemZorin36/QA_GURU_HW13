@@ -32,14 +32,6 @@
 
 ## <img width="4%" title="Jenkins" src="images/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_homework_13/)
 
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp;*Сформировать allure отчет:*
-
-```bash
-allure serve build/allure-results
-```
-
 *Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.*
 
 <p align="center">
@@ -49,10 +41,6 @@ allure serve build/allure-results
 *После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
 значок <img width="2%" title="Allure Report" src="images/allure-Report-logo.svg"><code><strong>*Allure
 Report*</strong></code>, кликнув по которому, откроется страница с сформированным html-отчетом.*
-
-<p align="center">
-  <img src="images/Allure jobs history.jpg" alt="job" width="1000">
-</p>
 
 ## <img width="4%" title="Allure Report" src="images/allure-Report-logo.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/qa_guru_homework_13/6/allure/)
 
