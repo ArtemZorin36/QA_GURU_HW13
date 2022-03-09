@@ -2,9 +2,9 @@ package severstal.helpers;
 
 import org.aeonbits.owner.Config;
 
+@Config.Sources("classpath:config/ConfigServer.properties")
 public interface ConfigServer extends Config {
     @Key("https.server.host")
-    @DefaultValue("https://${server.host.login}:${server.host.password}@selenoid.autotests.cloud/wd/hub")
     String hostname();
 
     @Key("server.host.login")
